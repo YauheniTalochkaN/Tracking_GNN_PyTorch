@@ -1,0 +1,17 @@
+input_dir: ./MPD_dataset/MPD_events
+output_dir: ./mpd_out/train_graphs
+n_files: 1000
+
+selection:
+    dphi_max: 0.06
+    z0_max: 400
+    dtheta_max: 1.6
+    d_min: 0
+    d_max: 12
+    pt_min: 0.15
+    n_phi_sections: 1
+    n_eta_sections: 1
+    eta_range: [-10, 10]
+    num_rows: 53
+    rmax: 124.0
+    zmax: 169.0
